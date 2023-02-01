@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MathFun.iml" filepath="$PROJECT_DIR$/.idea/MathFun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MathFun.iml" filepath="$PROJECT_DIR$/MathFun.iml" />
     </modules>
   </component>
 </project>

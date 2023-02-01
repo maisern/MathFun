@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="MathFun" target="19" />
+      <module name="MathFun" target="${java.version}" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
