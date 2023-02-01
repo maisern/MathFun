@@ -1,0 +1,25 @@
+body {
+    "background-color: antiquewhite;
+}
+
+
+h1 {
+    color: crimson;
+    text-align: center;
+    background-color: gray;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div {
+    background-color: #0f0f0f0f;
+    width: auto;
+    padding: 50px;
+}
+div2 {
+    background-color: whitesmoke;
+    width: auto;
+    padding: 20px;
+
+}
