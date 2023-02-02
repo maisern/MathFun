@@ -23,3 +23,20 @@ div2 {
     padding: 20px;
 
 }
+
+button {
+    color: whitesmoke;
+    background-color: crimson;
+    width: 200px;
+    padding: 30px;
+
+
+}
+
+a {
+    color: whitesmoke;
+    background-color: crimson;
+    width: 200px;
+    padding: 30px;
+    border: black;
+}
