@@ -4,18 +4,24 @@ function testfunk(){
 }
 
 function startSpill(){
+    let t1, t2;
+    t1 = Math.floor(Math.random()*10);
+    t2 = Math.floor(Math.random()*10);
+    document.getElementById('sporsmal').innerHTML = t1 + ' * ' + t2;
     document.getElementById('spill').style.display='block';
     document.getElementById('start').style.display='none';
+    return t1 * t2;
 }
 
-function svarGitt(svar){
+function svarGitt(svar, t3){
     let tall = Number(svar);
-    if (tall===20){
-        document.write("Riktig")
-        document.write(tall);
+    if (tall===t3){
+        alert("Riktig");
+        startSpill();
     }else {
-        document.write("Feil!")
-        document.write(tall);
+        alert("Feil!");
+        startSpill();
+        document.write(t3)
 
     }
 }
