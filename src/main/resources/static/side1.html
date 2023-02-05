@@ -9,20 +9,19 @@
 <body>
 <h1 style="color: darkblue">Spill 1</h1>
 <div id="start">
-    <button type="button" onclick="startSpill();">
+    <button type="button" id="verdi" onclick="startSpill();">
     Start spillet
 </button>
 </div>
 <div id="spill" style="display: none" >
     <form>
+    <label id="resultat"></label>
     <label id="sporsmal"></label>
     <label>
 
-        <input type="number" onchange="svarGitt(this.value, startSpill())">
-        <!--<button onclick="document.write(document.getElementById('svar'))">svar</button>-->
+        <input type="number" id="input" onmouseleave="svar = this.value">
+        <button onclick="svarGitt(svar)">svar</button>
     </label>
-    <input type="submit" value="submit" onclick="svarGitt(20)">
-
     </form>
 </div>
 
